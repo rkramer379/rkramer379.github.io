@@ -1,0 +1,95 @@
+
+body{
+    background-color: #75A642
+}
+#title {
+    border-width: 25px;
+    border-color: #ffff00;
+    
+    padding: 5px;
+    background-color: #AAAAAA;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    height: auto;
+    
+}
+text-align: center;
+    border-width: 5px;
+    background-color: #AAAAAA;
+    
+    
+    border-radius: 25px;
+    margin: 50px;
+
+#Menu {
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    padding-left: 225px;
+}
+#menu ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 60px;
+}
+#Menu li {
+    float: left;
+    
+}
+#Menu li a {
+    border-style: dotted;
+    border-color: red;
+   
+}
+#Menu li a:hover {
+    background-color: red;
+    color: black;
+}
+#Menu li {
+    
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-right:2px;
+    width: 60px;
+    margin-left: 8px;
+    line-height: 15px;
+
+
+}
+#Menu a {
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2px;
+    
+    border-left: 2px;
+    background-color: #BBBADD;
+}
+.ul {
+    text-align: center;
+    float: center;
+    list-style-position: inside;
+}
+p.one {
+    border-width: 75px;
+    border-style: solid;
+    border-color: #ABC9BC;
+    padding: 20px;
+    background-color: #CCCDDD;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    margin: 100px;
+    text-shadow: 1px 1px black;
+    
+}
+h2.title2 {
+    text-align: center;
+    
+
+}
