@@ -24,8 +24,11 @@ h3.title {
 }
  li {
     display: inline;
-    margin: 2px;
-    padding: 3px;
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    margin: auto;
+    padding: 2px;
     
 
     
