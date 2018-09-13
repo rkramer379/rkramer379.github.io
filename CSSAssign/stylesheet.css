@@ -48,15 +48,18 @@ h3.title {
     text-decoration: none;
     background-color: #BBBADD;
 }
-p.one {
+div.endp {
+    
     width: 430px;
     height: auto;
-    border-top: 70px solid red;
-    border-bottom: 70px solid red;
-    border-right: 40px solid red;
-    border-left: 40px solid red;
+    border-top: 70px solid #add3cf;
+    border-bottom: 70px solid #add3cf;
+    border-right: 40px solid #add3cf;
+    border-left: 40px solid #add3cf;
     padding: 5px;
     margin: auto;
+}
+p.one {
     font-style: italic;
     border-style: solid;
     border-color: #ABC9BC;
