@@ -1,93 +1,78 @@
-
-body{
-    background-color: #75A642
+body {
+  background-color: #75a642;
 }
 h3.title {
-    border: 8px solid;
-    border-color: #FDF851;
-    background-color: #AAAAAA ;
-    border-radius: 7px;
-    padding: 0px;
-    text-align: center;
-    width: 200px;
-    margin: auto;
-    height: auto;
-    
+  border: 8px solid;
+  border-color: #fdf851;
+  background-color: #aaaaaa;
+  border-radius: 7px;
+  padding: 0px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  height: auto;
 }
 
- ul {
-   list-style: none;
-    text-align: center;
-    padding-left: 130px;
-    padding-right: 130px
-    
+ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
 }
- li {
-    display: inline;
-    text-align: center;
-    width: 70px;
-    height: 25px;
-    margin: auto;
-    padding: 2px;
-    
-
-    
+li {
+  display: inline;
+  text-align: center;
+  width: 70px;
+  height: 25px;
+  margin: auto;
+  padding: 2px;
 }
 #Menu li a {
-    border-style: dotted;
-    border-color: red;
-    color: black;
-   
+  border-style: dotted;
+  border-color: red;
+  color: black;
 }
 #Menu li a:hover {
-    background-color: red;
-    color: black;
+  background-color: red;
+  color: black;
 }
 #Menu a {
-    text-align: center;
-    text-decoration: none;
-    background-color: #BBBADD;
+  text-align: center;
+  text-decoration: none;
+  background-color: #bbbadd;
 }
 p {
-    background-color: #CCCDDD;
-    border-color: #ABC9BC;
-    width: 430px;
-    height: auto;
-    border-top: 70px solid;
-    border-bottom: 70px solid;
-    border-right: 40px solid;
-    border-left: 40px solid;
-    padding: 5px;
-    margin: auto;
+  background-color: #d3d3d3;
+  border-color: #abc9bc;
+  width: 430px;
+  height: auto;
+  border-top: 70px solid #b1c9bd;
+  border-bottom: 70px solid #b1c9bd;
+  border-right: 40px solid #b1c9bd;
+  border-left: 40px solid #b1c9bd;
+  padding: 5px;
+  margin: auto;
 }
 p {
-    font-style: italic;
-    text-shadow: 1px 1px black;
+  font-style: italic;
+  text-shadow: 1px 1px black;
 }
 
-
-p:hover 
-{
-    background-color: red;
-    width: 430px;
-    height: auto;
-    border-top: 70px solid red;
-    border-bottom: 70px solid red;
-    border-right: 40px solid red;
-    border-left: 40px solid red;
-    padding: 5px;
-    margin: auto;
-
-
+p:hover {
+  background-color: red;
+  width: 430px;
+  height: auto;
+  border-top: 70px solid red;
+  border-bottom: 70px solid red;
+  border-right: 40px solid red;
+  border-left: 40px solid red;
+  padding: 5px;
+  margin: auto;
 }
 
 h2.title2 {
-    text-align: center;
-    
-
+  text-align: center;
 }
 #endp a:hover {
-    color: orange;
-
-
+  color: orange;
 }
