@@ -48,25 +48,21 @@ h3.title {
     text-decoration: none;
     background-color: #BBBADD;
 }
-div.endp {
-    
+p 
+{
+    background-color: red;
     width: 430px;
     height: auto;
-    border-top: 70px solid #add3cf;
-    border-bottom: 70px solid #add3cf;
-    border-right: 40px solid #add3cf;
-    border-left: 40px solid #add3cf;
+    border-top: 70px solid red;
+    border-bottom: 70px solid red;
+    border-right: 40px solid red;
+    border-left: 40px solid red;
     padding: 5px;
     margin: auto;
+
+
 }
-p.one {
-    font-style: italic;
-    border-style: solid;
-    border-color: #ABC9BC;
-    background-color: #CCCDDD;
-    text-align: center;
-    text-shadow: 1px 1px black;
-}
+
 
 p:hover 
 {
