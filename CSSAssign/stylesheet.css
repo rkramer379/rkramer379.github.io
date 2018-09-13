@@ -51,11 +51,12 @@ h3.title {
 p.one {
     width: 430px;
     height: auto;
-    border: right 40px solid;
-    border-left: 40px solid;
-    border-top: 70px solid;
-    border-bottom: 70px solid;
+    border-top: 70px solid red;
+    border-bottom: 70px solid red;
+    border-right: 40px solid red;
+    border-left: 40px solid red;
     padding: 5px;
+    margin: auto;
     font-style: italic;
     border-style: solid;
     border-color: #ABC9BC;
