@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: white;
+}
+
+
+    table{
+        width: 700px;
+        border-spacing: 8px;
+    }
+    table{
+        border: 7px solid lightgreen;
+        border-style: ridge;
+    }
+
+    th,td {
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        padding: 2px;
+    }
+
+    th{
+        font-size: 90%;
+        border-bottom: 8px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-color: black;
+        text-align: left;
+    }
+    .one:hover {
+        background-color: #77DDDD;
+    }
+    .two:hover {
+        background-color: #BABAED;
+    }
+    .berr {
+        border: 5px;
+        border-style: dotted;
+        border-color: blue;
+        background-color: orange;
+    }
+    .places {
+        border: 5px;
+        border-style: dashed;
+        border-color: green;
+        background-color: red;
+    }
