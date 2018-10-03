@@ -1,5 +1,60 @@
 .selected {
-    color: white;
-    background: steelblue;
-  }
-  
+  color: white;
+  background: steelblue;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 32rem;
+}
+.carousel-inner img {
+  margin: auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  font-weight: bold;
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+p {
+  font-family: "Rubik", sans-serif;
+  margin-right: 300px;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container {
+  border: 100px white solid;
+
+  float: right;
+  position: relative;
+  margin: 95px;
+  background-color: white;
+}
