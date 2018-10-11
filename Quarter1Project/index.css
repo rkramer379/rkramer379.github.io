@@ -1,3 +1,5 @@
+
+
 .selected {
   color: white;
   background: steelblue;
@@ -10,24 +12,28 @@ body {
 }
 .carousel {
   margin-bottom: 4rem;
+  
 }
 .carousel-caption {
-  bottom: 3rem;
   z-index: 10;
+  font-size: 48px;
+  float: center;
 }
 .carousel-item {
-  height: 32rem;
+  height: 750px;
   background-color: #777;
+
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
-
+  
   height: 32rem;
 }
 .carousel-inner img {
   margin: auto;
+  
 }
 table,
 th,
