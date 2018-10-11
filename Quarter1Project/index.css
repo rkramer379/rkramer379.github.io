@@ -50,11 +50,7 @@ h2 {
   font-weight: bold;
   text-decoration: underline;
 }
-.container {
-  border: 100px white solid;
 
-  float: right;
-  position: relative;
-  margin: 95px;
-  background-color: white;
+.title {
+  font-weight: bold;
 }
