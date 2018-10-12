@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+body {
+        background-image: url("download.jpg");
+        background-repeat: repeat;
+        background-attachment: fixed;
+    
+}
+div {
+    background-color: blue;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-radius: 7px;
+    padding-top: 10px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+figcaption {
+    text-align: center;
+}

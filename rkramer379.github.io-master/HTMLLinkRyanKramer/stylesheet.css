@@ -1,0 +1,44 @@
+#Menu,
+#Menu ul {
+  list-style: none;
+}
+
+#Menu {
+  width: 925px;
+}
+#Menu {
+  float: left;
+}
+#Menu > li {
+  float: left;
+}
+#Menu > li a {
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1.5em;
+  text-decoration: none;
+}
+#Menu ul {
+  position: absolute;
+}
+#Menu li {
+  line-height: 87px;
+  float: left;
+  text-align: center;
+  width: 300px;
+}
+#Menu {
+  font-family: Arial;
+  font-size: 12px;
+  background: #2f8be8;
+
+}
+#Menu > li > a {
+  color: #fff;
+  font-weight: bold;
+}
+#Menu > li:hover > a {
+  background: #f09d28;
+  color: #000
+}
