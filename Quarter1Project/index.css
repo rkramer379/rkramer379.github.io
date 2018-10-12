@@ -60,3 +60,15 @@ h2 {
 .title {
   font-weight: bold;
 }
+
+.center {
+  text-align: center;
+  float: center;
+}
+.parts {
+  background-color: lightgrey;
+}
+.article {
+  border: 10px white solid;
+  background-color: white;
+}

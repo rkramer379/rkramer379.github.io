@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.3.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
@@ -50,7 +51,7 @@
       </div>
       <div class="carousel-caption d-none d-md-block">
         <h2> Build A PC</h2>
-        <p> Button Class</p>
+        <button class="btn btn-default btn-lg" onclick="window.location.href='#tiles'"><i class="fa fa-bolt fa-fw"></i> Learn Why </button>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="..." alt="Second slide">
@@ -70,7 +71,7 @@
   </div>
 
   
-    <section class="hero is-danger is-bold">
+    <section class="hero is-danger is-bold" id="tiles">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -96,7 +97,7 @@
               to damage or failure.</p>
           </article>
           <article class="tile is-child notification is-warning">
-            <p class="title">2. No Bloatware</p>
+            <p class="title">No Bloatware</p>
             <p class="subtitle">You know when you get a new HP, or Leveno, or ASUS PC and you login just to find all of this random software
               installed like
               Scype or HP update assistant or all these other useless softwares that clog up your PC on startup or during use
@@ -115,14 +116,14 @@
               the first
               time and realizing all of you hard work paid off.</p>
             <figure class="image is-4by3">
-              <img src="images/pcex.jpg" width=480px hieght=640px>
+              <img id="tile_image" src="images/pcex.jpg">
             </figure>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child notification is-danger">
-          <p class="title">3. Valueable Skill</p>
+          <p class="title">Valueable Skill</p>
           <p class="subtitle">Learning to build a PC is a valuable skill that teaches you how computer are put together, how the parts interact
             and work togehter
             to display content. This can insite a love for PC's and computers that could end up as a carrear for some people.
@@ -136,7 +137,7 @@
     <div class="tile is-parent">
       <article class="tile is-child notification is-success">
         <div class="content">
-          <p class="title">5. Easily Upgradable</p>
+          <p class="title">Easily Upgradable</p>
           <p class="subtitle">Another reason is that since you put it togther, you can take it apart and replace components with new models
             of
             them
@@ -152,6 +153,9 @@
     </div>
   </div>
   <br>
+  <div class="center">
+  <button class="btn btn-info btn-lg" onclick="window.location.href='parts.html'"><i class="fa fa-arrow-circle-right fa-fw"></i> Continue to Parts Page </button>
+</div>
 </div>
 
 
