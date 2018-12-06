@@ -1,7 +1,4 @@
-window.onload = function() {
-  var todo = localStorage.getItem("todo");
-  alert("THe following items were saved by Jesus himself " + todo);
-};
+
 
 var countDownDate = new Date("Jan 2, 2020 23:59:59").getTime();
 
@@ -28,66 +25,72 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-//create a close button and append it to each list item
-var list = document.getElementsByTagName("LI");
 
-for (var i = 0; i < list.length; i++) {
+
+//////////////////////////////////////////////////////
+
+
+//create local storage
+let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
+localStorage.setItem('items', JSON.stringify(itemsArray));
+//creates a data object of all of the list items
+const data = JSON.parse(localStorage.getItem('items'));
+//add existing items to local storgae
+//be able to load local storage to the list when the page loads
+
+
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
-  list[i].appendChild(span);
+  myNodelist[i].appendChild(span);
 }
 
-//click on a close button to hide the task
+// Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
-for (var i = 0; i < close.length; i++) {
+var i;
+for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
-  };
+  }
 }
 
-//add a "checked" symbol when cliking on list item
-var list2 = document.querySelector("ul");
-list2.addEventListener(
-  "click",
-  function(ev) {
-    if (ev.target.tagName === "LI") {
-      ev.target.classList.toggle("checked");
-    }
-  },
-  false
-);
-//clicking on a new list item when clicking on the Add button
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
-  if (inputValue === "") {
-    alert("You Must Write");
+  if (inputValue === '') {
+    alert("You must write something!");
   } else {
-    document.getElementById("goaList").appendChild(li);
+    document.getElementById("myUL").appendChild(li);
   }
   document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
-  var txt = createTextNode("\u00D7");
+  var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
 
-  for (var i = 0; i < close.length; i++) {
+  for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
-    };
+    }
   }
 }
-
-window.onbeforeunload = function() {
-  var listItems = getElementsByTagName("LI");
-  alert(listItems);
-  localStorage.setItem("key", "value");
-};
