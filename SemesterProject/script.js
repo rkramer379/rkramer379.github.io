@@ -45,3 +45,4 @@ function Switch(content){
         content.classList.add("hidden");
     }
 }
+
